@@ -1,0 +1,109 @@
+body {
+    background: radial-gradient(orangered, black);
+    color: whitesmoke;
+    margin: 0 auto;
+    padding: 0 auto;
+    
+  }
+  
+  .container-fluid {
+    padding: 60px 50px;
+  }
+  
+  .name, #tour, .subName, #portfolio, #contact {
+    text-transform: uppercase;
+  }
+  
+  .navbar {
+    margin-bottom: 0;
+    background-color: #000000;
+    z-index: 9999;
+    border: 0;
+    font-size: 20px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: "Sue Ellen Francisco", cursive;
+  }
+  
+  .navbar-nav li a:hover {
+      color: #f4511e !important;
+      background-color: #fff !important;
+  }
+  
+  .name {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 82px;
+    font-family: "Alfa Slab One", cursive;
+  }
+  
+  .subName {
+    text-align: center;
+    opacity: 0.5;
+    font-family: "Gochi Hand", cursive;
+    font-size: 24px;
+  }
+  
+  
+  .thePerson h2, .contactTitle {
+    font-family: "Gochi Hand", cursive;
+    font-size: 55px;
+  }
+  
+  .thePersonP {
+    text-align: center;
+    margin: 10px;
+    font-weight: 400;
+    font-family: "Sue Ellen Francisco", cursive;
+    font-size: 25px;
+  }
+  
+  #portfolio {
+    text-align: center;
+    font-family: "Gochi Hand", cursive;
+    font-size: 55px;
+  }
+  
+  .thumbnail {
+    color: black;
+    margin: 0 auto;
+    font-size: 15px;
+    font-family: "Sue Ellen Francisco", cursive;
+  }
+  
+  .thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .thumbnail:hover {
+    background-color: black;
+    color: red;
+  }
+  
+  #contact {
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+  
+  #contact h2 {
+    padding-bottom: 30px;
+  }
+  
+  .pulse {
+    animation-iteration-count: 5;
+  }
+  
+  .fadeInDown {
+    animation-delay: 0.5s;
+  }
+  
+  
+  
+  
+  
